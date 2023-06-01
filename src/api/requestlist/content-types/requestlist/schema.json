@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "requestlists",
+  "info": {
+    "singularName": "requestlist",
+    "pluralName": "requestlists",
+    "displayName": "Requestlist",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "requestType": {
+      "type": "string"
+    },
+    "profile": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "date": {
+      "type": "datetime"
+    },
+    "priority": {
+      "type": "string"
+    },
+    "username": {
+      "type": "string"
+    }
+  }
+}
